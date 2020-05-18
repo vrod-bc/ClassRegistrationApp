@@ -23,6 +23,7 @@ namespace Courses_API.Controllers
         [HttpGet]
         public List<Courses> GetCourses()
         {
+            //Veronica is giving me a headache now
             return Idb.GetCourses();
         }
 
